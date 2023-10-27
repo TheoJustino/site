@@ -13,7 +13,7 @@ body{
 }
 
 header{
-    background-color: rgb(255, 208, 0);
+    background-color: #231413;
     width: 1440px;
     height: 100px;
     display: inline-flex;
@@ -21,20 +21,22 @@ header{
 }
 
 #Logo{
-    margin: 10px 100px;
+    margin: 10px;
+    margin-left: 110px;
 }
 
 nav{
     float: left;
-    margin-right: 30px;
+    margin-right: 10px;
 }
 
 .Menu{
     width: 50px;
     height: 50px;
     display: inline-flex;
-    margin-right: 110px;
-    float:left; 
+    margin-right: 20px;
+    float:left;
+    margin-top: 10px; 
 }
 
 .Menu a{
@@ -139,7 +141,7 @@ nav{
 }
 
 footer{
-    background-color: rgb(255, 208, 0);
+    background-color: #231413;
     width: 1440px;
     height: 100px;
     border-radius: 1px; border: 1px;
