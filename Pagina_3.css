@@ -16,6 +16,31 @@ header{
     background-color: rgb(255, 208, 0);
     width: 1440px;
     height: 100px;
+    display: inline-flex;
+    flex-direction: row;
+}
+
+#Logo{
+    margin: 10px 100px;
+}
+
+nav{
+    float: left;
+    margin-right: 30px;
+}
+
+.Menu{
+    width: 50px;
+    height: 50px;
+    display: inline-flex;
+    margin-right: 110px;
+    float:left; 
+}
+
+.Menu a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
 }
 
 #Main-Section{
